@@ -4,9 +4,9 @@ The subscription of term deposit by client
 
 Attribute information For bank dataset
 
-   Input variables:
+# Input variables:
    
-   # bank client data:
+   ## Bank client data:
    
    1 - age (numeric)
    
@@ -25,7 +25,7 @@ Attribute information For bank dataset
    
    8 - loan: has personal loan? (binary: "yes","no")
    
-   # related with the last contact of the current campaign:
+   ## Related with the last contact of the current campaign:
    
    9 - contact: contact communication type (categorical: "unknown","telephone","cellular") 
    
@@ -35,7 +35,7 @@ Attribute information For bank dataset
   
   12 - duration: last contact duration, in seconds (numeric)
   
-   # other attributes:
+   ## Other attributes:
    
   13 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
   
@@ -45,6 +45,6 @@ Attribute information For bank dataset
   
   16 - poutcome: outcome of the previous marketing campaign (categorical: "unknown","other","failure","success")
 
-  # Output variable (desired target):
+  ## Output variable (desired target):
   
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
